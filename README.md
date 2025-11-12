@@ -1,2 +1,2 @@
 # AL-Cringe-wro2025
-Краткое описание робота для wro 2025
+WRO 2025 Future Engineers (Team Al-Cringe)
