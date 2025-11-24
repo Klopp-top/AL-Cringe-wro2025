@@ -33,3 +33,30 @@ The code for our robot and simulations can be found in the following directories
   - **Photos**: Images of components and assembly.
   - **PCB Designs**: Gerber files and design files from PCBWay.
   - **Schematics**: Circuit diagrams and connections.
+
+## Code (in a few lines)
+
+function DriveRobot()
+    Initialize PID_controller
+    Initialize encoder
+
+    while true do
+        if no obstacle detected then
+            Move forward using PID_control
+
+            if green block on right then
+                Keep moving forward
+            else if green block on left then
+                Turn left
+
+            if last block is red then
+                Turn right
+            else if last block is green then
+                Turn left
+        else
+            Stop
+
+        if parked then
+            Exit parking using encoder
+    end while
+end function
